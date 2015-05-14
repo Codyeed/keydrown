@@ -1,4 +1,4 @@
-/*! keydrown - v1.1.3 - 2014-09-22 - http://jeremyckahn.github.com/keydrown */
+/*! keydrown - v1.1.4 - 2015-05-14 - http://jeremyckahn.github.com/keydrown */
 ;(function (window) {
 
 var util = (function () {
@@ -173,6 +173,16 @@ var KEY_MAP = {
   ,'DOWN': 40
   ,'BACKSPACE': 8
   ,'DELETE': 46
+  ,'ZERO': 48
+  ,'ONE': 49
+  ,'TWO': 50
+  ,'THREE': 51
+  ,'FOUR': 52
+  ,'FIVE': 53
+  ,'SIX': 54
+  ,'SEVEN': 55
+  ,'EIGHT': 56
+  ,'NINE' :57 
 };
 
 
