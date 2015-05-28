@@ -1,4 +1,4 @@
-/*! keydrown - v1.1.4 - 2015-05-14 - http://jeremyckahn.github.com/keydrown */
+/*! keydrown - v1.1.4 - 2015-05-28 - http://jeremyckahn.github.com/keydrown */
 ;(function (window) {
 
 var util = (function () {
@@ -166,6 +166,7 @@ var KEY_MAP = {
   ,'ENTER': 13
   ,'SHIFT': 16
   ,'ESC': 27
+  ,'CTRL': 17
   ,'SPACE': 32
   ,'LEFT': 37
   ,'UP': 38
