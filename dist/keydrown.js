@@ -389,7 +389,6 @@ var kd = (function (keysDown) {
     var isNew = util.pushUnique(keysDown, keyCode);
 
     kd[keyName].press();
-    }
   });
 
   util.documentOn('keyup', function (evt) {
