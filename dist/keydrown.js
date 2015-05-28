@@ -387,8 +387,6 @@ var kd = (function (keysDown) {
     var keyCode = evt.keyCode;
     var keyName = TRANSPOSED_KEY_MAP[keyCode];
     var isNew = util.pushUnique(keysDown, keyCode);
-
-    kd[keyName].press();
   });
 
   util.documentOn('keyup', function (evt) {
