@@ -65,11 +65,7 @@ var kd = (function (keysDown) {
     var keyName = TRANSPOSED_KEY_MAP[keyCode];
     var isNew = util.pushUnique(keysDown, keyCode);
 
-    if (isNew && kd[keyName]) {
-      if(kd[keyName] == CTRL){
-        evt.preventDefault();
-      }
-      kd[keyName].press();
+    kd[keyName].press();
     }
   });
 
