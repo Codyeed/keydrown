@@ -33,6 +33,7 @@ var KEY_MAP = {
   ,'ENTER': 13
   ,'SHIFT': 16
   ,'ESC': 27
+  ,'CTRL': 17
   ,'SPACE': 32
   ,'LEFT': 37
   ,'UP': 38
