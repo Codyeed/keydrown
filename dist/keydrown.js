@@ -389,6 +389,9 @@ var kd = (function (keysDown) {
     var isNew = util.pushUnique(keysDown, keyCode);
 
     if (isNew && kd[keyName]) {
+      if(kd[keyName] == CTRL){
+        evt.preventDefault();
+      }
       kd[keyName].press();
     }
   });
